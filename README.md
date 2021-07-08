@@ -7,10 +7,12 @@ Example of how to handle background processes with FastAPI, Celery, and Docker.
 Spin up the containers:
 
 ```sh
-$ docker-compose up -d --build
+#$ docker-compose up -d --build
+$ docker-compose up -d --build --scale worker=3
 ```
 
 Open your browser to [http://localhost:8004](http://localhost:8004)
+Open your browser to [http://localhost:5556/](http://localhost:5556/)
 
 
 ### Hack for typing-extensions (21/07/08)
