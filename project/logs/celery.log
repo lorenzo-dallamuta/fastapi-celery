@@ -1,0 +1,28 @@
+[2021-07-08 21:32:21,877: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-07-08 21:32:21,891: INFO/MainProcess] mingle: searching for neighbors
+[2021-07-08 21:32:22,919: INFO/MainProcess] mingle: all alone
+[2021-07-08 21:32:22,948: INFO/MainProcess] celery@f4be9e2a4cd4 ready.
+[2021-07-08 21:32:27,100: INFO/MainProcess] Events of group {task} enabled by remote.
+[2021-07-08 21:35:01,995: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-07-08 21:35:02,022: INFO/MainProcess] mingle: searching for neighbors
+[2021-07-08 21:35:03,073: INFO/MainProcess] mingle: all alone
+[2021-07-08 21:35:03,126: INFO/MainProcess] celery@c46223488592 ready.
+[2021-07-08 21:35:03,443: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-07-08 21:35:03,460: INFO/MainProcess] mingle: searching for neighbors
+[2021-07-08 21:35:03,494: INFO/MainProcess] sync with celery@cfffbe156cae
+[2021-07-08 21:35:03,520: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-07-08 21:35:03,531: INFO/MainProcess] mingle: searching for neighbors
+[2021-07-08 21:35:03,564: INFO/MainProcess] sync with celery@c8dbf58db4a8
+[2021-07-08 21:35:04,501: INFO/MainProcess] mingle: sync with 1 nodes
+[2021-07-08 21:35:04,501: INFO/MainProcess] mingle: sync complete
+[2021-07-08 21:35:04,518: INFO/MainProcess] celery@cfffbe156cae ready.
+[2021-07-08 21:35:04,570: INFO/MainProcess] mingle: sync with 1 nodes
+[2021-07-08 21:35:04,570: INFO/MainProcess] mingle: sync complete
+[2021-07-08 21:35:04,588: INFO/MainProcess] celery@c8dbf58db4a8 ready.
+[2021-07-08 21:35:09,228: INFO/MainProcess] Events of group {task} enabled by remote.
+[2021-07-08 21:35:09,228: INFO/MainProcess] Events of group {task} enabled by remote.
+[2021-07-08 21:35:09,228: INFO/MainProcess] Events of group {task} enabled by remote.
+[2021-07-08 21:36:09,106: INFO/MainProcess] Received task: create_task[97d245f0-3e15-4a2f-a785-ccdbcdf4c1d0]  
+[2021-07-08 21:36:19,122: INFO/ForkPoolWorker-7] Task create_task[97d245f0-3e15-4a2f-a785-ccdbcdf4c1d0] succeeded in 10.01417759998003s: True
+[2021-07-08 21:39:36,090: INFO/MainProcess] Received task: create_task[cd4f71d2-b4e4-4303-bfce-708d00927eb2]  
+[2021-07-08 21:39:46,101: INFO/ForkPoolWorker-7] Task create_task[cd4f71d2-b4e4-4303-bfce-708d00927eb2] succeeded in 10.008945400011726s: True
