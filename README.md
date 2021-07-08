@@ -11,3 +11,15 @@ $ docker-compose up -d --build
 ```
 
 Open your browser to [http://localhost:8004](http://localhost:8004)
+
+
+### Hack for typing-extensions (21/07/08)
+
+pipenv install -r project/requirements.txt
+delete Pipfile.lock
+pipenv lock
+pipenv install
+
+for some reason the first time around the 
+typing-extensions dependency gets a 
+python < 3.8 marker even if it's not true
